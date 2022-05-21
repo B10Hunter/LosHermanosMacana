@@ -6,21 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
     <script src="../js/bootstrap.bundle.min.js"></script>
-    <title>Los Hermanos Macana</title>
+    <meta name="description" content="consulte">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
+    <title>Contactanos</title>
 </head>
-<body>
+<body class="container fondo">
     
-    <header class="container shadow-lg bg-success bg-opacity-25 border border-warning border-3 rounded-pill d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+    <header class=" sombra container men shadow-lg bg-success  border border-warning border-3 rounded-pill d-flex flex-wrap justify-content-center py-3 mb-5 border-bottom">
         
-        <div class="d-flex align-items-star p10 mb-3 mb-md-0 me-md-auto ">
-            <img class=" border border-warning  border-3 rounded-pill"  src="../img/El-rocomovil.jpg" alt="logotipo" width="100" height="100">
+        <div class="d-flex align-items-star  mb-3 mb-md-0 me-md-auto ">
+            <img class=" border menImg border-warning  border-3 rounded-pill"  src="../img/El-rocomovil.jpg" alt="logotipo" width="100" height="100">
         </div >
         <div class="">
         <nav class="navbar" >      
-            <ul class="nav nav-pills text-wrap fw-bold text-reset p-10 ">
-                <li class="navbar-brand p-2"><a class="text-dark nav-link border border-warning  border-3 rounded-pill bg-light" href="../index.html">Inicio</a></li>
-                <li class="navbar-brand p-2"><a class="nav-link text-dark border border-warning  border-3 rounded-pill bg-light" href="inflables.html">Inflables</a></li>
-                <li class="navbar-brand p-2"><a class="nav-link text-dark border border-warning  border-3 rounded-pill bg-light" href="extras.html">Extra</a></li>
+            <ul class="nav nav-pills text-wrap  fw-bold text-reset p-10 ">
+                <li class="navbar-brand re"><a class="text-dark nav-link border border-warning  border-3 rounded-pill bg-light" href="../index.html">Inicio</a></li>
+                <li class="navbar-brand re"><a class="nav-link text-dark border border-warning  border-3 rounded-pill bg-light" href="inflables.html">Inflables</a></li>
+                <li class="navbar-brand re"><a class="nav-link text-dark border border-warning  border-3 rounded-pill bg-light" href="extras.html">Extra</a></li>
                 
              </ul>
              </nav>
@@ -28,26 +32,71 @@
 
        
     </header>
+    
+    <main class="d-flex  justify-content-center">
+        
+           
+            
+       <form class="preguntas" action="" method="" enctype="">
+        <div class="p-1">
+            <label for="nombre">Nombre:</label>
+            <input required="" type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre..">
+        </div>
 
-    <main class="d-flex justify-content-center">
-        <div class="border border-warning  border-3 m-3">
-            <p>Nuestro numero de Whatsapp es 11122334</p>
-           
-       </div>
-           
+        <div class="p-1">
+            <label for="nombre">País:</label>
+            <input required="" type="text" id="nombre" name="nombre" placeholder="Ingrese su país..">
+        </div>
+
+        <div class="p-1">
+            <label for="edad">Edad:</label>
+            <input required="" type="number" id="edad" name="edad" placeholder="Ingrese su edad..">
+        </div>
+
+        <div>
+            <label for="tipo">Tipo consulta:</label>
+            <select name="tipo" id="tipo">
+                <option value="Ayuda">Ayuda</option>
+                <option value="Envio">Alquiler</option>
+            </select>
+        </div>
+
+        <div>
+            <h2>Comenta sobre nuestros alquileres</h2>
+
+            <label for="dw">Inflables:</label>
+            <input checked="" type="checkbox" id="dw" name="cursos">
+
+            <label for="js">Metegoles:</label>
+            <input type="checkbox" id="js" name="cursos">
             
-                <div class="form-floating border border-warning bg-secondary  bg-opacity-10 border-3 m-3 rounded-4">
-                    <p>osososos</p>
-                    <textarea class="form-control m" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
-                    <label for="floatingTextarea2">comenta</label>
-                  </div>
+            <label for="react">Pool:</label>
+            <input type="checkbox" id="react" name="cursos">
+
+            <label for="backend">Tejos:</label>
+            <input type="checkbox" id="backend" name="cursos">
+        </div>
+
+        <div>
+            <label for="comentario">Comentario</label>
+            <textarea name="comentario" id="comentario" cols="20" rows="10"></textarea>
+        </div>
+
+        <div class="text-center">
             
+            <button>Enviar</button>
+            </div>
+    </form>
        
     </main>
     <footer >
         <section  class="">
             <p class="text-center" >Derechos Reservados -Los Hermanos Macanas 2022 </p>     
         </section>
+        <a class="whatsapp text-dark border border-warning  ">
+            <img src="../img/what.png" alt="whats" width="22" height="22"> 11-222-333
+            
+        </a>
         
     </footer>    
     

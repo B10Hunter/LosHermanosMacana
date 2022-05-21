@@ -1,1 +1,93 @@
+$font-family-sans-serif: 'Caveat', cursive;
+$warning: #daa103 ;
+$success: #fef5c0;
+$danger: #f6f681 ;
+$navbar-brand-font-size : 1rem ;
+.fondo {
+    background-image: linear-gradient( rgb(244, 201, 136), rgb(170, 243, 252) );
+}
+.contactanos {
+    background-color: rgb(49, 52, 49);
+    text-align: center;
+    border-radius: 20px;
+    font-weight: 10;
+    width: 400px;
+    height: 516px;
+    padding: 16px;
+    color: rgb(91, 119, 125);
+    border: 4px groove goldenrod;
+    margin: auto;
+}
+.whatsapp {
+    position: fixed;
+    right: 10px;
+    bottom: 16px;
+    z-index: 11;
+    padding: 10px;
+    display: inline-block;
+    background-color: rgb(255, 251, 251);
+    border-radius: 50px;
+    font-size: 22px;
+}
+.bordes {
+    border-radius: 20px;
+    color: rgb(91, 119, 125);
+    border: 4px groove goldenrod;
+    
+}
+.preguntas{
+    background-color: rgb(49, 52, 49);
+    text-align: center;
+    border-radius: 20px;
+    font-weight: 10;
+    width: 400px;
+    height: 563px;
+    padding: 16px;
+    color: rgb(91, 119, 125);
+    border: 4px groove goldenrod;
+    margin: auto;
+}
+.pading {
+    margin-bottom: 125px
+}
+@media (max-width: 768px) {
+         
+        .men {
+            display: flex;
+            flex-direction: column;
+            height: 100px;
+            width: 100px;
+            
+        }
+        .menImg {
+            width: 75px;
+            height: 75px;
+            margin-top: 10px ;
+        }
+
+        .re {
+        padding-left: 3px ;
+        
+        
+       }
+    .responsive {
+        display: flex;
+        flex-direction: column ;
+        justify-content: center;
+        align-items: center;
+    }
+    .res { 
+        &_menu {
+                 width:258px ;
+                 height: 77px;
+                  }
+
+   }
+    .imgInicio {
+        width: 394px;
+        height: 409px;
+    }
+    
+
+}
 @import "../node_modules/bootstrap/scss/bootstrap";
