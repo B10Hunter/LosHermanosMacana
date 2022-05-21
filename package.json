@@ -6,9 +6,17 @@
   "scripts": {
     "start": "sass ./sass/style.scss ./css/style.css -w --no-source-map -s compressed"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/B10Hunter/Los-Hermanos-Macanas.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/B10Hunter/Los-Hermanos-Macanas/issues"
+  },
+  "homepage": "https://github.com/B10Hunter/Los-Hermanos-Macanas#readme"
+,
   "dependencies": {
     "bootstrap": "^5.2.0-beta1"
   }
