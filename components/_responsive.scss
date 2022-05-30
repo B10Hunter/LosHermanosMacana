@@ -1,0 +1,98 @@
+@media (max-width: 425px) {
+    .derechos__reservados {
+        font-size: 16px;
+        margin-top: 62px;
+    }
+    .movi:hover img {
+        transform: none;
+    }
+    .movi img {
+        transition: none;
+    }
+ /*Responsive de "Inicio"*/
+   header div p { padding: 7px;
+                 font-size: 26px}
+
+   header div img {
+                  height: 80px;
+                  width: 80px;
+                   }
+.flexMain {
+    flex-direction: column;
+    align-items: center;
+}
+.bord {
+    height: 402px;
+    width: 382px;
+    margin-bottom: 14px;
+}
+.borde {
+       width: 406px;
+       height: 298px;
+}
+.text {
+    font-size: 24px;
+}
+
+/*final de responsive de "Inicio" */
+
+/*responsive de "Inflables y Extrass" */
+body {
+    margin: auto;
+    height: auto;
+}
+
+.precios {
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.precios_inflables {
+    width: 300px;
+    height: 220px;
+}
+.tiempo {
+    width: 416px;
+    font-size: 24px;
+}
+.derechos__reservadosInflables {
+    font-size: 15px;
+    margin-top: 63px;
+}
+.light-box img {
+    width: 91vw;
+    height: 77vw;
+    margin: 106px;
+}
+
+
+
+/* Fin de responsive de "Inflable y Extras" */
+
+/* Responsive de "Contactanos" */
+.contac {
+    text-align: none;
+    margin-top: 30px;
+    margin-left: 5px;
+    width: 416px;
+
+}
+.contac_img {
+    width: 399px;
+    height: 147px;
+}
+.contac_text {
+    font-size: 17px;
+    margin-top: 33px;
+    width: 409px;
+    height: 136px;
+
+}
+.derechos__reservadosContac {
+     font-size: 16px;
+}
+/* Fin de responsive de "Contactanos" */
+
+
+}

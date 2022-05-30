@@ -1,0 +1,30 @@
+header { 
+   
+    padding: 4px;
+    display: flex;
+    justify-content: center;
+    ;
+    
+    div { 
+         display: flex;
+                          img {
+                                border: 2px solid rgb(255, 210, 63);
+                                border-radius: 50px;
+                                margin: auto;
+                                               } 
+                                                              p  { 
+                                                                font-family: 'Shrikhand', cursive;
+                                                                 font-size: 56px;
+                                                                 padding: 10px;
+                                                                margin: auto;
+                                                                color: rgb(255, 255, 255);}
+                             } 
+     }
+
+.movi img {
+      transition: all 3s;
+  }
+.movi:hover img {
+      transform: translate(-200px) rotate(-360deg);
+  }
+    
